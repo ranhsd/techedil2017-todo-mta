@@ -1,0 +1,29 @@
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.f.semantic" controllerName="com.sap.demo.ui.controller.Object">
+
+<VBox width="100%" direction="Column" id="__vbox0">
+
+    <items>
+
+        <ObjectHeader title="{title}" numberUnit="eur" introActive="true" titleActive="true" id="__header0"/>
+
+        <sap.ui.layout.form:SimpleForm editable="true" layout="ResponsiveGridLayout" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" id="__form0">
+
+            <sap.ui.layout.form:content>
+
+                <sap.ui.core:Title text="Status And Note" id="__title0"/>
+
+                <Label text="Status" id="__label0"/>
+
+                <Input width="100%" id="__input0" value="{status}"/>
+
+                <Label text="Note" id="__label1"/>
+
+                <Input width="100%" id="__input2" value="{note}"/></sap.ui.layout.form:content>
+
+        </sap.ui.layout.form:SimpleForm>
+
+    </items>
+
+</VBox>
+
+</mvc:View>
